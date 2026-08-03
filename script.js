@@ -73,3 +73,46 @@ switch (day) {
     console.log("sunday");
     break;
 }
+
+//taking input from user
+// const readline=require("readline");
+// const rl=readline.createInterface({input:process.stdin,output:process.stdout})
+// rl.question("enter your name:".function(name))
+// {
+//     console.log("hello"+name);
+//     rl.close();
+// }
+
+//increamnet decrement
+let p=5;
+let q=++p+p++;
+let r=p++ + p++;
+let s=++p+ ++p;
+console.log(p,q,r,s)
+
+//loops
+//for(initialize;condition;inc/dec)
+
+//factorial
+let n=5;
+let fac=1;
+for(let i=1;i<=n;i++)
+{
+
+  fac*=i;
+}
+console.log(fac);
+
+//fibonacci=0,1,1,2,3,5,8,13
+let num = 10;
+
+let m = 0;
+let o = 1;
+
+for (let i = 0; i < num; i++) {
+    console.log(m);
+    
+    let next = m + o;
+    m = o;
+    o = next;
+}
