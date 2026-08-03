@@ -51,3 +51,4 @@ console.log(subs);
 //multiply
 let multi=2*5;
 console.log(multi);
+
