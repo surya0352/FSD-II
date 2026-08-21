@@ -265,18 +265,61 @@
 
 
             //Complex Object
-const person={
-  name:"surya",
-  age:19,
-  laptop:{
-    CPU1:"I7",
-    ram:"8GB",
-    brand:"DELL"
-  }
-};
+// const person={
+//   name:"surya",
+//   age:19,
+//   laptop:{
+//     CPU1:"I7",
+//     ram:"8GB",
+//     brand:"DELL"
+//   }
+// };
 
-      //dot notation
-console.log(person.laptop.CPU)
-console.log(person["laptop"]["CPU"])
-console.log(person.laptop.CPU?.length)
+//       //dot notation
+// console.log(person.laptop.CPU)
+// console.log(person["laptop"]["CPU"])
+// console.log(person.laptop.CPU?.length)
 
+// const A={
+//   a:1,
+//   b:2
+// };
+
+// const B={
+//   c:3,   //if b:3 then the output will be { a: 1, b: 3, d: 4 }
+//   d:4
+// };
+
+// let M=Object.assign({},A,B);
+// console.log(M);
+
+// temp={x:100};
+// let N=Object.assign(temp,A,B);
+// console.log(N);
+
+
+// //Spread operator
+// console.log({...A,...B})
+
+//Shallow  vs  Deep copy
+
+// const p1={
+//   name:"amit",
+//   laptop:{
+//     cpu:"I5",
+//     ram:"8GB"
+//   }
+// };
+
+// const p2={...p1};
+
+// p2.laptop.cpu="I7"
+// console.log(p1)
+// console.log(p2)
+
+// const p3=structuredClone(p1)
+// console.log(p3)
+
+// const p4=JSON.parse(JSON.stringify(p1))
+// p4.laptop.ram="16GB"
+// console.log(p4)
