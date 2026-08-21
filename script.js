@@ -182,14 +182,15 @@
 //   }
 // }
 
-// let person={
+// let Person={
 //   name:"surya",
 //   age:19
 // };
-// person.greet=funtion(){
+// Person.greet=function(){
 //   console.log("hello, i am " + this.name);
 // };
-// person.greet();
+// Person.greet(); 
+
 
 // const student ={
 //   1:"CSE",
@@ -217,8 +218,65 @@
 
 
 // const p={
-//   name:"s"
-// };
-// p={age:19}   //not-possible
+  //   name:"s"
+  // };
+  // p={age:19}   //not-possible
 // p.dept="ECE" //possible
+
+
+
+// let Person={
+//   name:"surya",
+//   age:19
+// };
+// Person.greet=function(){
+//   console.log("hello, i am " + this.name);
+// };
+// Person.greet();
+
+
+// const person={
+//   name:"surya"
+// };
+// function greet()
+// {
+//   console.log("hello"+this.name);
+// }
+// person.greet=greet
+
+
+// const person={
+//   name:"ABC",
+//   greet:function()
+//   {
+//     console.log("hello"+this.name);
+//   }
+// };
+
+
+// const person={
+//   name:"ABC",
+//   greet()
+//   {
+//     console.log("hello"+this.name)
+//   }
+// }
+
+
+
+            //Complex Object
+const person={
+  name:"surya",
+  age:19,
+  laptop:{
+    CPU1:"I7",
+    ram:"8GB",
+    brand:"DELL"
+  }
+};
+
+      //dot notation
+console.log(person.laptop.CPU)
+console.log(person["laptop"]["CPU"])
+console.log(person.laptop.CPU?.length)
 
