@@ -323,3 +323,12 @@
 // const p4=JSON.parse(JSON.stringify(p1))
 // p4.laptop.ram="16GB"
 // console.log(p4)
+
+
+// let name="JS"
+// console.log(`${name} programming`)
+
+// console.log(`Hello,"What's Up There"`)
+// console.log('Hello,"What\'s Up There"')
+// console.log("Hello,\"What's Up There\"")
+
