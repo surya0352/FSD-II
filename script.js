@@ -191,3 +191,34 @@
 // };
 // person.greet();
 
+// const student ={
+//   1:"CSE",
+//   name:"JS"
+// };
+
+// console.log(student['1'])
+// console.log(student['age'])
+// console.log(student['name'])
+// console.log(student.age)
+// console.log(student.name)
+
+// const sym=Symbol("rd")
+// const person=new Object();
+
+// console.log(person[sym]=123);
+// console.log(person.name="js")
+
+// let p={
+//   name:'A'
+// };
+
+// p={age:19};  //possible
+// p.dept="CSE";//possible
+
+
+// const p={
+//   name:"s"
+// };
+// p={age:19}   //not-possible
+// p.dept="ECE" //possible
+
