@@ -40,3 +40,19 @@
 // console.log("Subtraction:", calculator(10, 5, subtract));
 // console.log("Multiplication:", calculator(10, 5, multiply));
 // console.log("Division:", calculator(10, 5, divide));
+
+
+
+
+
+// //define an arrow function sum(a,b) that if b<0 it returns the message "Please enter positive number" otherwise,it returns the sum  of a+b;
+// const sum = (a, b) => {
+//     if (b < 0) {
+//         return "Please enter positive number";
+//     } else {
+//         return a + b;
+//     }
+// };
+
+// console.log(sum(10, 5));
+// console.log(sum(10, -5));
