@@ -127,3 +127,18 @@
 // };
 // person.greet();
 
+function test(a,b){
+    const show=function(){
+        console.log(arguments);
+    };
+    show();
+}
+test(10,20);
+
+function test(a,b){
+    const show=()=>{
+        console.log(arguments);
+    };
+    show();
+}
+test(10,20);
