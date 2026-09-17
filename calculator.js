@@ -56,3 +56,11 @@
 
 // console.log(sum(10, 5));
 // console.log(sum(10, -5));
+
+
+
+// //  write a js prgram to find even nummbers fromt the given array using arrow function
+// const arrr = [1, 2, 3, 4, 5, 6];
+// const even = (num) => {
+//     return num % 2 == 0;
+// };
