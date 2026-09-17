@@ -127,18 +127,30 @@
 // };
 // person.greet();
 
-function test(a,b){
-    const show=function(){
-        console.log(arguments);
-    };
-    show();
-}
-test(10,20);
+// function test(a,b){
+//     const show=function(){
+//         console.log(arguments);
+//     };
+//     show();
+// }
+// test(10,20);
 
-function test(a,b){
-    const show=()=>{
-        console.log(arguments);
-    };
-    show();
+// function test(a,b){
+//     const show=()=>{
+//         console.log(arguments);
+//     };
+//     show();
+// }
+// test(10,20);
+
+
+function Person(){
+    console.log(Person.prototype);
 }
-test(10,20);
+Person();
+
+const Person = () => {
+    console.log(Person.prototype);
+};
+
+Person();
