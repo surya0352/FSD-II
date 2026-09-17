@@ -64,3 +64,66 @@
 // const even = (num) => {
 //     return num % 2 == 0;
 // };
+
+
+
+
+
+// for (let i = 0; i < arrr.length; i++) {
+//     if (even(arr[i])) {
+//         console.log(arr[i]);
+//     }
+// }
+
+// let arrrr=[10,15,22,33];
+// for(let[index,value] of arrrr.entries()){
+//     console.log("index:",index,"value:",value);
+// }
+
+// const fun=()=>{user:"surya"}
+// console.log(fun());
+
+// const one=()=>{
+//     let user="surya";
+//     console.log(user);
+//     console.log(this.user);
+// }
+// one();
+
+// const two=()=>{
+//     let user="SURYA";
+//     console.log(this);
+// }
+// two();
+
+
+// const person={
+//     name:"surya",
+//     greet:function(){
+//         setTimeout(function(){
+//             console.log(this.name);
+//         },3000);
+//     }
+// };
+// person.greet();
+
+// const person={
+//     name:"surya",
+//     greet:function(){
+//         setTimeout(function(){
+//             console.log(this.name);
+//         }.bind(this),3000);
+//     }
+// };
+// person.greet();
+
+// const person = {
+//     name: "surya",
+//     greet: function() {
+//         setTimeout(() => {
+//             console.log(this.name);
+//         }, 3000);
+//     }
+// };
+// person.greet();
+
